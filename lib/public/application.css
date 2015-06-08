@@ -1,0 +1,102 @@
+
+@import url(<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Merriweather:700italic,900italic' rel='stylesheet' type='text/css'>);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  color: #F5F5F1
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Merriweather', serif;
+  float: left;
+}
+h1 {
+  color: #F3641E;
+    font-size: 250%;
+  }
+
+nav {
+  float: right;
+  margin: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: #3BA8C2;
+}
+
+/* visited link */
+a:visited {
+    color: #3BA8C2;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3BA8C2;
+}
+
+/* selected link */
+a:active {
+    color: #3BA8C2;
+}
+
+header {
+  background: #e4f2d6;
+  border-bottom: 2px solid #a4b296;
+  overflow: hidden;
+}
+footer {
+  background: #eee;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+.main {
+  min-height: calc(100vh - 128px);
+}
+
+.main {
+  color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+  float: left;
+}
+.sidebar {
+  width: 200px;
+}
+
+.sidebar {
+  color: #3BA8C2;
+}
+
+.products {
+  float: right;
+  width: calc(100% - 200px);
+}
+.product {
+  display: inline-block;
+  margin: 5px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.details .name {
+  float: left;
+  color: #3BA8C2;
+}
+.details .price {
+  float: right;
+}
+
+.details .price:before {
+  content: "$";
+  opacity: .3;
+}

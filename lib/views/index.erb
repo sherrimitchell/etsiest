@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="<%= url('/application.css') %>" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Merriweather:700italic,900italic' rel='stylesheet' type='text/css">
+	<div class="product">
+	<div class="preview">
+    </div>
+    <div class="details">
+      <div class="name"><%= name %></div>
+      <div class="price"><%= price %></div>
+    </div>
+    <title>Etsy Product Pag</title>
+  </div>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1 class="logo">Etsy</h1>
+  </header>
+<div class="main">
+<div class="results">
+    <h5>Show Results For:</h5>
+    <div class="sidebar">
+      <ul>
+        <li><a href="https://www.etsy.com/search?q=furniture"><span>All Categories</span></a></li>
+        <li><a href="https://www.etsy.com/search/home-and-living?q=furniture"><span>Home & Living</span></a></li>
+        <li><a href="https://www.etsy.com/search/craft-supplies-and-tools?q=furniture"><span>Craft Supplies & Tools</span></a></li>
+        <li><a href="https://www.etsy.com/search/art-and-collectibles?q=furniture"> <span>Art & Collectibles</span></a></li> 
+        <li><a href="https://www.etsy.com/search/pet-supplies?q=furniture"> <span>Pet Supplies</span></a></li>
+        <li><a href="https://www.etsy.com/search/toys-and-games?q=furniture"> <span>Toys & Games</span></a></li>
+        <li><a href="https://www.etsy.com/search/books-movies-and-music?q=furniture"> <span>Books, Movies & Music</span></a></li>
+        <li><a href="https://www.etsy.com/search/paper-and-party-supplies?q=furniture"> <span>Paper & Party Supplies</span></a></li>
+        <li><a href="https://www.etsy.com/search/accessories?q=furniture"> <span>Accessories</span></a></li>
+        <li><a href="https://www.etsy.com/search/jewelry?q=furniture"> <span>Jewelry</span></a></li>
+        <li><a href="https://www.etsy.com/search/bags-and-purses?q=furniture"> <span>Bags & Purses</span></a></li>
+        <li><a href="https://www.etsy.com/search/electronics-and-accessories?q=furniture"> <span>Electronics & Accessories</span></a></li>
+        <li><a href="https://www.etsy.com/search/weddings?q=furniture"> <span>Weddings</span></a></li> 
+        </ul>
+    </div>
+    </div>
+  
+    <div class="products">
+      <%= erb :item %>
+    </div
+  <footer>
+    &copy; Etsy
+  </footer>>
+</div>
+</body>
+</html>
